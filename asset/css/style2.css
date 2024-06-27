@@ -7,21 +7,15 @@
 }
 
 
-#profil-section h1{
+.head_title{
     margin-bottom: 3rem;
 }
 
-.Profil{
-    display: flex;
-    flex-direction: row;
-   
-}
-
-.carte p{
+.carte p {
     margin-top: 10px;
 }
 
-.carte{
+.carte {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,12 +23,11 @@
     margin: 2rem;
 }
 
-.carte img{
-    width: 10rem;
-    height: 10rem;
+.carte img {
+    width: 13rem;
+    height: 13rem;
     border-radius: 7px;
 }
-
 
 
 .button {
@@ -125,4 +118,57 @@
     text-decoration:underline;
     color:red;
     
+}
+
+
+/* Bouton Slider */
+#slider{
+    width: 100%;
+    box-shadow: 0 0 14px rgba(0,0,0,0,3);
+    position: relative;
+}
+
+#sliderContent {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 4rem);
+    margin: 0 2rem;
+}
+
+.sliderButton {
+    background: rgba(35, 35, 35, 0.1);
+    box-shadow: 0 4px 30px rgba(1, 0, 0, 0);
+    backdrop-filter: blur(1.4px);
+    -webkit-backdrop-filter: blur(1.4px);
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    height: 10rem;
+    width: 3rem ;
+}
+
+#sliderLeft {
+    left: 0;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+#sliderLeft:hover {
+    transform: scale(1.1);
+    opacity: 1 ;
+}
+
+#sliderRight {
+    right: 0;
+    opacity: 0.4;
+    transition: all 0.3s ease;
+} 
+#sliderRight:hover {
+    transform: scale(1.1);
+    opacity: 1 ;
+}
+
+i {
+    font-size: 2rem;
+    color: white;
 }

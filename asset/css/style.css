@@ -2,7 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -33,10 +32,9 @@ section{
     width: 0; /* Hide the scrollbar */
 }
 
+
+/* --------------------------------------------- */
 /* Nav Bar */
-
-
-
 nav {
     position: fixed;
     width: 100vw;
@@ -112,11 +110,10 @@ a {
     height: 50px;
     margin: 10px;
 }
+/* --------------------------------------------- */
 
-
-
-
-/* home page */
+/* --------------------------------------------- */
+/* HOME PAGE */
     
 #home-section{
     padding-top: 3rem;
@@ -127,10 +124,7 @@ a {
     justify-content: center;
     background: rgb(15, 15, 15);
     flex-direction: column;
-    
 }
-
-
 
 center h2{
     font-size: 30px;
@@ -146,13 +140,11 @@ center{
     position: relative;  
 }
 
-
 center img{
     margin-top: 5rem;
     width: 50rem;
     height: 10rem;
 }
-
 
 .wallpaper{
     position: absolute;
@@ -160,21 +152,52 @@ center img{
     bottom: 0;
 
 }
+/* --------------------------------------------- */
 
 
-
-
-/* compétences page  */
-
-
-.top10{
-    width: 50rem;
-    height: 25rem;
+/* --------------------------------------------- */
+/* COMPETENCES PAGE  */
+.skils{
+    width: 10rem;
+    height: 8rem;
 }
 
 #competence-section{
-    margin-top: 5rem;
+    height: 20rem;
 }
+/* --------------------------------------------- */
+
+
+/* --------------------------------------------- */
+/* PROJETS PAGE */
+.liste_content{
+    width: 70rem;
+}
+
+.liste{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.col{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.col img{
+    height: 25rem;
+    width: 18rem;
+}
+/* --------------------------------------------- */
 
 
 /* footer */
@@ -182,12 +205,13 @@ center img{
 footer {
     bottom: 0;
     width: 100vw;
-    height: 2.5rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: darkgrey;
     font-size: 1rem;
+    background: rgb(49, 49, 49);
 }
 
 ul {
